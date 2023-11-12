@@ -1,0 +1,239 @@
+/* @font-face {
+    font-family: Bebas;
+    src: url(../Fonts/BebasNeue-Regular.otf); } */
+  
+  /* @font-face {
+    font-family: Akira;
+    src: url(../Fonts/Akira\Expanded\Demo.otf); } */
+  
+  /* @font-face {
+    font-family: code;
+    src: url(../Fonts/CodeSaver-Regular.otf); }  */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;} 
+img {
+  max-width: 100%; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.header {
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: center;
+  gap: none;
+  min-height: 80vh;
+  background-color: #D6FF38;
+  padding: 70px 0; }
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: none; }
+
+.logo {
+  font-family: Bebas;
+  font-size: 35px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 800; }
+
+.menu .navbar ul li {
+  position: relative;
+  float: left; }
+  .menu .navbar ul li a {
+    font-size: 20px;
+    padding: 25px;
+    color: #111111;
+    display: block;
+    font-family: Code;
+    transition: 0.4s; }
+    .menu .navbar ul li a:hover {
+      color: #cfcfcf; }
+
+#menu {
+  display: none; }
+
+.menu-icono {
+  width: 25px; }
+
+.menu label {
+  cursor: pointer;
+  display: none;
+  transition: 0.4s;
+  font-size: 55px; }
+  .menu label:hover {
+    color: #cfcfcf; }
+
+.navbar2 {
+  display: flex;
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px; }
+
+.submenu {
+  position: relative; }
+  .submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: #4e4B5076;
+    padding: 20px;
+    min-width: 400px; }
+  .submenu:hover div table {
+    width: 100%; }
+    .submenu:hover div table th, .submenu:hover div table td {
+      color: #FFFFFF; }
+
+#carrito {
+  display: none; }
+
+.borrar {
+  background-color: #111111;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 800;
+  cursor: pointer; }
+
+.header-content {
+  display: flex;
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: none;
+  flex: 1;
+  padding: 0 200px; }
+
+.header-txt {
+  flex-basis: 100%;
+  text-align: center; }
+  .header-txt h1 {
+    font-size: 90px;
+    font-family: Akira;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #111111;
+    font-family: Akira;
+    margin-bottom: 15px; }
+  .header-txt p {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Code; }
+
+.img {
+  display: flex;
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: none;
+  gap: none;
+  padding: 105px; }
+
+.img1, .img3 {
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: center;
+  gap: 20px; }
+  .img1 img, .img3 img {
+    width: 500px;
+    height: 600px;
+    margin-right: 15px;
+    border-radius: .625rem .625rem .625rem .625rem; }
+
+.img2 {
+  display: flex;
+  flex-direction: none;
+  justify-content: none;
+  align-items: center;
+  gap: 20px; }
+  .img2 img {
+    width: 550px;
+    height: 650px;
+    margin-right: 15px;
+    border-radius: .625rem .625rem .625rem .625rem; }
+
+h2 {
+  color: #111111;
+  font-family: Akira;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 10rem 0;
+}
+#Indumentaria, #Calzado{
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  gap: 3.125rem; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: none;
+  justify-content: center;
+  align-content: none;
+  grid-template-areas: none;
+  gap: 50px;
+  padding: 2rem 15rem;
+}
+.Titulo{
+  display: flex;
+  justify-content: left;
+  font-size: 2rem;
+  width: 100%;
+  padding: 0 15rem;
+  color: #111111;
+  font-family: Akira;
+}
+.product {
+  text-align: center;
+  padding: 30px;
+  box-shadow: 5px 5px 15px #7d7d7d; }
+  .product img {
+    width: 250px;
+    height: 370px;
+    margin-bottom: 20px; }
+  .product h3 {
+    font-size: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: Bebas; }
+  .product p {
+    font-size: 16px;
+    color: #111111;
+    margin-bottom: 15px;
+    font-weight: 800; }
+  .product a {
+    font-family: Bebas; }
+
+.btn-2 {
+  display: inline-block;
+  padding: 7px 10px;
+  background-color: #111111;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-size: 15px; }
