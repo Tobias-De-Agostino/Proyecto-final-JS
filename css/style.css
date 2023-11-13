@@ -1,14 +1,10 @@
-/* @font-face {
-    font-family: Bebas;
-    src: url(../Fonts/BebasNeue-Regular.otf); } */
-  
-  /* @font-face {
-    font-family: Akira;
-    src: url(../Fonts/Akira\Expanded\Demo.otf); } */
-  
-  /* @font-face {
-    font-family: code;
-    src: url(../Fonts/CodeSaver-Regular.otf); }  */
+@font-face {
+  font-family: 'MiFuente';
+  src:
+      url('../Fonts/BebasNeue-Regular.otf') format('otf'),
+      url('../Fonts/Akira\ Expanded\ Demo.otf') format('otf'),
+      url('../Fonts/CodeSaver-Regular.otf') format('otf');
+}
 
 
 * {
@@ -103,8 +99,41 @@ img {
     .submenu:hover div table th, .submenu:hover div table td {
       color: #FFFFFF; }
 
+#productos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.producto {
+  text-align: center;
+}
+
 #carrito {
-  display: none; }
+  display: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 500px;
+  float: right;
+}
+
+#lista-carrito {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-carrito li {
+  margin-bottom: 10px;
+}
+
+#lista-carrito img{
+  max-width: 50px;
+}
+
+#total {
+  text-align: right;
+  margin-top: 10px;
+}
 
 .borrar {
   background-color: #111111;
@@ -184,14 +213,8 @@ h2 {
   padding: 10rem 0;
 }
 #Indumentaria, #Calzado{
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 10rem;
-  gap: 3.125rem; */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: none;
   justify-content: center;
   align-content: none;
@@ -214,7 +237,7 @@ h2 {
   box-shadow: 5px 5px 15px #7d7d7d; }
   .product img {
     width: 250px;
-    height: 370px;
+    height: 270px;
     margin-bottom: 20px; }
   .product h3 {
     font-size: 25px;

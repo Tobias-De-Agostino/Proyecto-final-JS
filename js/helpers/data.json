@@ -5,7 +5,7 @@
         "paragraph": "calidad premium",
         "thumbnail": "../../Images/Campera-nike.jpeg",
         "type": "indumentaria",
-        "price": 27.800
+        "price": 27800
     },
     {
         "id": 2,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "name": "Zapatillas adidas superstar blanca",
+        "name": "Zapatillas adidas superstar",
         "paragraph": "calidad premium",
         "thumbnail": "../../Images/adidas-superstar-blanca.jpg",
         "type":"calzado",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "name": "Campera de abrigo adidas mujer",
+        "name": "Campera de abrigo adidas",
         "paragraph": "calidad premium",
         "thumbnail": "../../Images/campera-adidas-mujer-rosa-1.jpg",
         "type":"indumentaria",
@@ -46,5 +46,21 @@
         "thumbnail": "../../Images/botines-mercurial.jpg",
         "type":"calzado",
         "price": 37599
+    },
+    {
+        "id": 7,
+        "name": "Remera Puma",
+        "paragraph": "calidad premium",
+        "thumbnail": "../../Images/remera-puma.jpg",
+        "type":"indumentaria",
+        "price":19599 
+    },
+    {
+        "id": 8,
+        "name": "Botines predator adidas",
+        "paragraph": "calidad premium",
+        "thumbnail": "../../Images/botines-adidas.jpg",
+        "type":"calzado",
+        "price": 31899
     }
 ]
