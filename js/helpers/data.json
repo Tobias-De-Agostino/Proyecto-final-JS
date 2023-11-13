@@ -1,64 +1,49 @@
 [
     {
-        "id": 1,
         "name": "Campera nike rompeviento",
-        "paragraph": "calidad premium",
         "thumbnail": "./Images/Campera-nike.jpeg",
         "type": "indumentaria",
         "price": 27800
     },
     {
-        "id": 2,
         "name": "Remera adidas negra",
-        "paragraph": "calidad premium",
         "thumbnail": "./Images/Remera-adidas.jpg",
         "type":"indumentaria",
         "price": 16799
     },
     {
-        "id": 3,
         "name": "Zapatillas air force 1 nike",
-        "paragraph": "calidad premium",
         "thumbnail": "./Images/nike-air-force.jpg",
         "type":"calzado",
         "price": 54900
     },
     {
-        "id": 4,
         "name": "Zapatillas adidas superstar",
-        "paragraph": "calidad premium",
+
         "thumbnail": "./Images/adidas-superstar-blanca.jpg",
         "type":"calzado",
         "price": 24999
     },
     {
-        "id": 5,
         "name": "Campera de abrigo adidas",
-        "paragraph": "calidad premium",
         "thumbnail": "./Images/campera-adidas-mujer-rosa-1.jpg",
         "type":"indumentaria",
         "price": 24500
     },
     {
-        "id": 6,
         "name": "Botines nike mercurial",
-        "paragraph": "calidad premium",
         "thumbnail": "./Images/botines-mercurial.jpg",
         "type":"calzado",
         "price": 37599
     },
     {
-        "id": 7,
         "name": "Remera Puma",
-        "paragraph": "calidad premium",
         "thumbnail": "./Images/remera-puma.jpg",
         "type":"indumentaria",
         "price":19599 
     },
     {
-        "id": 8,
         "name": "Botines predator adidas",
-        "paragraph": "calidad premium",
         "thumbnail": "./Images/botines-adidas.jpg",
         "type":"calzado",
         "price": 31899
